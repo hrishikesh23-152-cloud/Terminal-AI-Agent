@@ -1,0 +1,71 @@
+<svg width="1140" height="786" viewBox="0 0 1140 786" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0E2033"/>
+    </pattern>
+    <pattern id="hatch" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#5A3B12" stroke-width="4"/>
+    </pattern>
+    <pattern id="hatchPurple" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#46245C" stroke-width="4"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 12 12" refX="9.5" refY="6" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M1 1L11 6L1 11V1Z" fill="#E7E8EC"/>
+    </marker>
+    <style>
+      .hand { font-family: 'Comic Sans MS', 'Trebuchet MS', cursive, sans-serif; fill: #F5F5F7; font-weight: 700; }
+      .label { font-size: 28px; }
+      .small { font-size: 20px; }
+      .nodeText { font-size: 16px; }
+      .tiny { font-size: 15px; }
+    </style>
+  </defs>
+
+  <rect width="1140" height="786" fill="#030609"/>
+  <rect width="1140" height="786" fill="url(#dots)"/>
+
+  <text x="540" y="94" text-anchor="middle" class="hand label">Agent</text>
+
+  <rect x="449" y="179" width="180" height="73" fill="#120B06" stroke="#E97E23" stroke-width="3"/>
+  <rect x="449" y="179" width="180" height="73" fill="url(#hatch)" opacity="0.6"/>
+  <text x="539" y="220" text-anchor="middle" class="hand nodeText">Start</text>
+  <text x="644" y="221" class="hand label">Node</text>
+
+  <path d="M539 253V353" stroke="#E7E8EC" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="557" y="307" class="hand label">Edge</text>
+
+  <rect x="449" y="358" width="180" height="73" fill="#120B06" stroke="#E97E23" stroke-width="3"/>
+  <rect x="449" y="358" width="180" height="73" fill="url(#hatch)" opacity="0.6"/>
+  <text x="539" y="401" text-anchor="middle" class="hand nodeText">Agent</text>
+  <text x="671" y="401" class="hand label">Node function</text>
+
+  <text x="103" y="525" class="hand label">What is the weather?</text>
+
+  <path d="M452 463C399 492 360 532 330 584" stroke="#E7E8EC" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M537 432C489 508 443 563 392 610" stroke="#E7E8EC" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="487" y="511" class="hand label">Edge</text>
+
+  <rect x="187" y="581" width="240" height="82" fill="#120B06" stroke="#5F7FE6" stroke-width="3"/>
+  <rect x="187" y="581" width="240" height="82" fill="url(#hatch)" opacity="0.6"/>
+  <text x="307" y="628" text-anchor="middle" class="hand small">Tools</text>
+  <text x="160" y="632" class="hand label">Node</text>
+
+  <rect x="192" y="668" width="86" height="83" rx="6" fill="#120B16" stroke="#B34DFF" stroke-width="3"/>
+  <rect x="192" y="668" width="86" height="83" rx="6" fill="url(#hatchPurple)" opacity="0.62"/>
+  <text x="235" y="703" text-anchor="middle" class="hand tiny">Web</text>
+  <text x="235" y="728" text-anchor="middle" class="hand tiny">Search</text>
+
+  <path d="M546 432C591 494 643 538 717 582" stroke="#E7E8EC" stroke-width="3" stroke-dasharray="11 10" fill="none" marker-end="url(#arrow)"/>
+  <text x="676" y="455" class="hand label">Conditional edges</text>
+
+  <rect x="610" y="582" width="185" height="81" fill="#120B06" stroke="#E97E23" stroke-width="3"/>
+  <rect x="610" y="582" width="185" height="81" fill="url(#hatch)" opacity="0.6"/>
+  <text x="702" y="629" text-anchor="middle" class="hand small">End</text>
+  <text x="820" y="632" class="hand label">Node</text>
+
+  <rect x="952" y="291" width="187" height="82" fill="#120B06" stroke="#E97E23" stroke-width="3"/>
+  <rect x="952" y="291" width="187" height="82" fill="url(#hatch)" opacity="0.6"/>
+  <text x="1045" y="339" text-anchor="middle" class="hand small">State</text>
+
+  <text x="754" y="734" class="hand label">Hi</text>
+</svg>
