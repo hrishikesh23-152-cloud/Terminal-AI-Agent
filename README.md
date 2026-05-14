@@ -78,7 +78,7 @@ dotenv	Environment Variables
 
 ⚙️ Installation
 1️⃣ Clone Repository
-git clone https://github.com/yourusername/terminal-ai-agent.git
+git clone https://github.com/hrishikesh23-152-cloud/Terminal-AI-Agent.git
 
 cd terminal-ai-agent
 2️⃣ Install Dependencies
